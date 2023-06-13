@@ -1,0 +1,22 @@
+:root{
+    --main-color: rgb(0, 0, 0);
+    --main-words-color:  rgba(255, 255, 255, 0.918);
+    --strong-color: rgba(34, 212, 253, 1);
+}
+    
+body{
+    background-color: var(--main-color);
+    color: var(--main-words-color);
+    height: 100vh;
+    width: 100vw;    
+    box-sizing: border-box;
+}
+
+strong{
+    color: var(--strong-color);
+}
+
+.presentation{
+    display: flex;
+    align-items: center;
+}
