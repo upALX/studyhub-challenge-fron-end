@@ -8,6 +8,9 @@
     --black-default: #000000;
     --ice-color: #f6f6f6;
     --backgorund-black-hover: rgba(39, 39, 39, 1);
+
+    --first-font: 'Krona One', sans-serif;
+    --secondary-word: 'Monserrat', sans-serif;
 }
     
 body{
@@ -28,8 +31,8 @@ header.navigation{
 }
 
 .navigation__menu__link{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-family: var(--secondary-word);
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--background-third-color);
     text-decoration: none;
@@ -48,20 +51,20 @@ main.presentation{
 }
 
 section.presentation__assignment{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 h1.presentation__assignment__title{
-    font-size: 36px;
-    font-family: 'Krona One', sans-serif;
+    font-size: 2rem;
+    font-family: var(--first-font);
 }
 
 p.presentation__assignment__paragraphs{
-    font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-family: var(--first-font);
     margin-bottom: 5%;
 }
 
@@ -74,9 +77,9 @@ div.presentation__assignment__links{
 }
 
 h2.presentation__links__subtitle{
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--first-font);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 48px;
     color: var(--ice-color);
 }
@@ -88,12 +91,12 @@ h2.presentation__links__subtitle{
     align-items: center;
     justify-content: center;
     gap: 12px;
-    width: 380px;
+    width: 60%;
     border-radius: 16px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
-    font-family: 'Monserrat', sans-serif;
+    font-family: var(--secondary-word);
     color: var(--ice-color);
     text-decoration: none;
 }
@@ -105,7 +108,7 @@ h2.presentation__links__subtitle{
 img#personal-image{
     border: 1px solid var(--secundary-color);
     border-radius: 8%;
-    width: 400px;
+    width: 40%;
 }
 
 footer.foot{
@@ -113,4 +116,10 @@ footer.foot{
     padding: 24px;
     background-color: var(--background-third-color);
     text-align: center;
+}
+
+@media(max-width: 1250px){
+    .presentation{
+        flex-direction: colunm;
+    }
 }

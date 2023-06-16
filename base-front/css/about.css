@@ -44,7 +44,7 @@ main.presentation{
 }
 
 section.presentation__assignment{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -59,7 +59,7 @@ p.presentation__assignment__paragraphs{
 img#personal-image{
     border: 1px solid var(--secundary-color);
     border-radius: 8%;
-    width: 400px;
+    width: 30%;
 }
 
 footer.foot{
