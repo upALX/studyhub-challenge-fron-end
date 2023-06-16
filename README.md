@@ -10,6 +10,7 @@ This repository contains all the content of front-end studies to carry out front
 ## 🛠 &nbsp; Tech Stack used 
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
 
+
 ### About :book:
 This is a hub to all learning projects for learn and study to challenges about frontend
 
@@ -21,7 +22,6 @@ This is a hub to all learning projects for learn and study to challenges about f
 git clone git@github.com:upALX/Pygibb.git
 ```
 ### Make your mark :triangular_flag_on_post:      
-
 
 **If you have any problems with this app or have an idea that contributes, open a [issue](https://github.com/upALX/Pygibb/issues), [pull request](https://github.com/upALX/Pygibb/pulls) or find me on [Linkedin](https://www.linkedin.com/in/upalx/):D**
 
