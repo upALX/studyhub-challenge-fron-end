@@ -8,6 +8,9 @@
     --black-default: #000000;
     --ice-color: #f6f6f6;
     --backgorund-black-hover: rgba(39, 39, 39, 1);
+
+    --first-font: 'Krona One', sans-serif;
+    --secondary-word: 'Monserrat', sans-serif;
 }
     
 body{
@@ -28,7 +31,7 @@ header.navigation{
 }
 
 .navigation__menu__link{
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--secondary-word);
     font-size: 24px;
     font-weight: 600;
     color: var(--background-third-color);
@@ -52,7 +55,7 @@ section.presentation__assignment{
 
 p.presentation__assignment__paragraphs{
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--secondary-word);
     margin-bottom: 5%;
 }
 

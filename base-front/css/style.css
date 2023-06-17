@@ -118,8 +118,18 @@ footer.foot{
     text-align: center;
 }
 
-@media(max-width: 1250px){
-    .presentation{
-        flex-direction: colunm;
+@media (max-width: 1200px){
+    .navigation {
+        padding: 50%;
     }
+
+    .navigation__menu {
+        justify-content: center;
+    }
+    
+    .presentation{
+        flex-direction: column-reverse;
+    }
+
+    
 }
