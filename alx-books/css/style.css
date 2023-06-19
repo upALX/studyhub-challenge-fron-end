@@ -2,7 +2,9 @@
 
 :root{
     --background-color: #EBECEE;
-    --background-header: #FFFFFF;
+    --background-header-color: #FFFFFF;
+    --title-menu-hamburguer-color: #EB9B00;
+    --items-menu-color: rgba(0, 47, 82, 1);
 }
 
 body {

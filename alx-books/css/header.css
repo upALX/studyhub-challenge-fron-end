@@ -9,7 +9,7 @@
 
 .header_style{
     width: 100vw;
-    background-color: var(--background-header);
+    background-color: var(--background-header-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,4 +33,33 @@
 
 .container__button:checked~.menu_list{
     display: block;
+}
+
+.container__button{
+    opacity: 0;
+}
+
+.menu_list__title{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--title-menu-hamburguer-color);
+}
+
+.menu_list__title,
+.menu_list__item{
+    padding: 1em;
+    background-color: var(--background-header-color);
+}
+
+a.list_menu__link{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--items-menu-color);
 }
