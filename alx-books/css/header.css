@@ -22,7 +22,7 @@
 }
 
 .container__image{
-    padding: 1em;
+    padding: 0.5em;
 }
 
 .menu_list{
@@ -52,6 +52,7 @@
 .menu_list__item{
     padding: 1em;
     background-color: var(--background-header-color);
+    width: 60vw;
 }
 
 a.list_menu__link{
