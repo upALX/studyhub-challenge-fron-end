@@ -1,0 +1,22 @@
+.carrossel{
+    background-color: var(--background-header-color);
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    color: var(--title-menu-hamburguer-color);
+    padding: 1em 0 0.5em 0
+}
+
+.carrossel__title{
+    margin-bottom: 1em;
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+    display: none;
+}
+
+.swiper-pagination{
+    position: initial;
+    margin-bottom: 0.5em;
+}
