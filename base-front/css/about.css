@@ -71,3 +71,41 @@ footer.foot{
     background-color: var(--background-third-color);
     text-align: center;
 }
+
+@media (max-width: 1200px){
+
+    header.navigation {
+        padding: 3%;
+    }
+
+    .navigation__menu {
+        justify-content: center;
+    }
+
+    .navigation__menu__link {
+        
+    }
+    
+    .presentation{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .presentation__assignment {
+        width: auto;
+        margin-top: 10%;
+    }
+
+    h1.presentation__assignment__title{
+        font-size: 1.6rem;
+    }
+
+    p.presentation__assignment__paragraphs{
+        font-size: 1.2rem;
+    }
+
+    h2.presentation__links__subtitle{
+        font-size: 1.2rem;
+    }
+
+}

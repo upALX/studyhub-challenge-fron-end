@@ -36,7 +36,7 @@
 }
 
 .container__button{
-    opacity: 0;
+    display: none;
 }
 
 .menu_list__title{

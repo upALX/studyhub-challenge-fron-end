@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,600;1,400&display=swap');
 
 :root{
-    --main-color: rgb(0, 0, 0);
-    --main-words-color:  rgba(255, 255, 255, 0.918);
-    --secundary-color: #22D4FD;
-    --background-third-color: #22D4FD; 
-    --black-default: #000000;
-    --ice-color: #f6f6f6;
+    --main-color: #121126;
+    --main-words-color:  #220859;
+    --secundary-color: #DB2EF2;
+    --black-default: #ED2B2A;
     --backgorund-black-hover: rgba(39, 39, 39, 1);
 
     --first-font: 'Krona One', sans-serif;
@@ -34,7 +32,7 @@ header.navigation{
     font-family: var(--secondary-word);
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--background-third-color);
+    color: var(--secundary-color);
     text-decoration: none;
 }
 
@@ -81,7 +79,7 @@ h2.presentation__links__subtitle{
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 48px;
-    color: var(--ice-color);
+    color: var(--main-words-color);
 }
 
 .presentation__links__link{
@@ -97,7 +95,7 @@ h2.presentation__links__subtitle{
     font-weight: 600;
     padding: 21.5px 0;
     font-family: var(--secondary-word);
-    color: var(--ice-color);
+    color: var(--main-words-color);
     text-decoration: none;
 }
 
@@ -114,22 +112,40 @@ img#personal-image{
 footer.foot{
     color: var(--backgorund-black-hover);
     padding: 24px;
-    background-color: var(--background-third-color);
+    background-color: var(--secundary-color);
     text-align: center;
 }
 
 @media (max-width: 1200px){
-    .navigation {
-        padding: 50%;
+
+    header.navigation {
+        padding: 3%;
     }
 
     .navigation__menu {
         justify-content: center;
     }
-    
+
     .presentation{
         flex-direction: column-reverse;
+        padding: 5%;
     }
 
-    
+    .presentation__assignment {
+        width: auto;
+        margin-top: 10%;
+    }
+
+    h1.presentation__assignment__title{
+        font-size: 1.6rem;
+    }
+
+    p.presentation__assignment__paragraphs{
+        font-size: 1.2rem;
+    }
+
+    h2.presentation__links__subtitle{
+        font-size: 1.2rem;
+    }
+
 }
