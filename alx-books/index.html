@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -74,13 +74,77 @@
                 <div class="swiper-slide"> <img src="./assets/reactnative.svg" alt="reactnative from ALX books "> </div>
             </div>
 
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+        <div class="card">
+            <div class="card__description">
+                <div class="description">
+                    <h3 class="description__title">Talvez você também se interesse por...</h3>
+                    <h2 class="description__title_book">Angular 11 e Firebase</h2>
+                    <p class="description_book">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                </div>
+                <img class="card__book_banner" src="./assets/angular.svg" alt="">
+                
+            </div>
+            <div class="card__buttons">
+                <ul class="buttons">
+                    <li class="item__button"><img src="./assets/heart.png" alt="Favorite"></li>
+                    <li class="item__button"><img src="./assets/sell.png" alt="Buy a book"></li>
+                </ul>
+                <a class="read_more_button" href="http://">Saiba mais</a>
+            </div>
+        </div>
+
+        <h2 class="carrossel__title">ÚLTIMOS LANÇAMENTOS</h2>
+        <!-- Slider main container -->
+
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"> <img src="./assets/apachekafka.svg" alt="Apache Kafka from ALX books ">
+                </div>
+                <div class="swiper-slide"> <img src="./assets/arquitetura.svg"
+                        alt="Software Arquitecture book from ALX books"> </div>
+                <div class="swiper-slide"> <img src="./assets/javascript.svg" alt="javascript from ALX books "> </div>
+                <div class="swiper-slide"> <img src="./assets/lideranca.svg" alt="lead design from ALX books "> </div>
+                <div class="swiper-slide"> <img src="./assets/nodejs.svg" alt="NodeJS from ALX books "> </div>
+                <div class="swiper-slide"> <img src="./assets/reactnative.svg" alt="reactnative from ALX books "> </div>
+            </div>
 
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
 
         </div>
+        <div class="card">
+            <div class="card__description">
+                <div class="description">
+                    <h3 class="description__title">Talvez você também se interesse por...</h3>
+                    <h2 class="description__title_book">Angular 11 e Firebase</h2>
+                    <p class="description_book">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                </div>
+                <img class="card__book_banner" src="./assets/angular.svg" alt="">
+                
+            </div>
+            <div class="card__buttons">
+                <ul class="buttons">
+                    <li class="item__button"><img src="./assets/heart.png" alt="Favorite"></li>
+                    <li class="item__button"><img src="./assets/sell.png" alt="Buy a book"></li>
+                </ul>
+                <a class="read_more_button" href="http://">Saiba mais</a>
+            </div>
+        </div>
+        
     </section>
+
+    
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="swipper_script.js"></script>
 </body>

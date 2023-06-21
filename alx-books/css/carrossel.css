@@ -1,14 +1,15 @@
 .carrossel{
-    background-color: var(--background-header-color);
+    background-color: var(--background-color);
     font-size: 1em;
     font-weight: 700;
     text-align: center;
     color: var(--title-menu-hamburguer-color);
-    padding: 1em 0 0.5em 0
+    padding: 0 0 0.5em 0
 }
 
 .carrossel__title{
-    margin-bottom: 1em;
+    padding: 2em 0 1em 0;
+    background-color: var(--background-header-color);
 }
 
 .swiper-button-prev,
@@ -19,4 +20,79 @@
 .swiper-pagination{
     position: initial;
     margin-bottom: 0.5em;
+}
+
+.card{
+    background-color: var(--background-header-color);
+    box-shadow: 0px 4px 4px rgba(0,0,0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.card__description{
+    display: flex;
+    justify-content: center;
+}
+
+.card__buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons{
+    display: flex;
+}
+
+.description__title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    color: var(--title-menu-hamburguer-color);
+}
+
+.description__title_book{
+    color: var(--items-menu-color);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 0.5em 0 0.5em 0;
+}
+
+.description_book{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--items-menu-color);
+    padding-bottom: 0.5em;
+    text-indent: 0;
+}
+
+.item__button{
+    margin: 0 0.5em;
+    display: flex;
+    align-items: center;
+}
+
+.card__book_banner{
+    margin: 0 0.5em; 
+}
+
+.read_more_button{
+    padding: 1em 2.2em;
+    background-color: var(--title-menu-hamburguer-color);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: var(--principal-font-color);
+    margin: 0 0.5em; 
 }
