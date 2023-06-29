@@ -7,6 +7,7 @@ This repository contains all the content of front-end studies to carry out front
 
 ---
 
+
 ## 🛠 &nbsp; Tech Stack used 
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
 
