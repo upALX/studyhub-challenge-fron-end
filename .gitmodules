@@ -1,0 +1,3 @@
+[submodule "Discover"]
+	path = Discover
+	url = git@github.com:upALX/Discover.git
