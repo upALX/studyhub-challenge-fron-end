@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,600;1,400&display=swap');
 
 :root{
-    --main-color: #121126;
-    --main-words-color:  #220859;
-    --secundary-color: #DB2EF2;
-    --black-default: #ED2B2A;
+    --main-color: #212121;
+    --main-words-color:  #f5fafaec;
+    --secondary-color: #ECB365;
+    --black-default: #0D7377;
     --backgorund-black-hover: rgba(39, 39, 39, 1);
 
     --first-font: 'Krona One', sans-serif;
@@ -32,12 +32,12 @@ header.navigation{
     font-family: var(--secondary-word);
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--secundary-color);
+    color: var(--secondary-color);
     text-decoration: none;
 }
 
 strong{
-    color: var(--secundary-color);
+    color: var(--secondary-color);
 }
 
 main.presentation{
@@ -83,12 +83,13 @@ h2.presentation__links__subtitle{
 }
 
 .presentation__links__link{
-    border: 2px solid var(--secundary-color);
+    border: 2px solid var(--secondary-color);
     /* background-color: #000000; */
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 12px;
+    gap: 1em;
+    box-sizing: border-box;
     width: 60%;
     border-radius: 16px;
     font-size: 1.5rem;
@@ -104,16 +105,25 @@ h2.presentation__links__subtitle{
 }
 
 img#personal-image{
-    border: 1px solid var(--secundary-color);
+    border: 1px solid var(--secondary-color);
     border-radius: 8%;
     width: 40%;
 }
 
-footer.foot{
-    color: var(--backgorund-black-hover);
+footer.footer{
+    color: var(--main-color);
     padding: 24px;
-    background-color: var(--secundary-color);
+    background-color: var(--secondary-color);
     text-align: center;
+}
+
+footer a.footer_links{
+    margin-right: 0.8em;
+    text-decoration: none;
+}
+
+footer div.icons_footer{
+    padding-bottom: 1em;
 }
 
 @media (max-width: 1200px){

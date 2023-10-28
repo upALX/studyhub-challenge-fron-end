@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,600;1,400&display=swap');
 
 :root{
-    --main-color: rgb(0, 0, 0);
-    --main-words-color:  rgba(255, 255, 255, 0.918);
-    --secundary-color: #22D4FD;
-    --background-third-color: #22D4FD; 
+    --main-color: #212121;
+    --main-words-color:  #f5fafa;
+    --secondary-color: #ECB365;
+    --black-default: #0D7377;
+    --background-third-color: #ECB365;
     --black-default: #000000;
     --ice-color: #f6f6f6;
     --backgorund-black-hover: rgba(39, 39, 39, 1);
@@ -60,16 +61,25 @@ p.presentation__assignment__paragraphs{
 }
 
 img#personal-image{
-    border: 1px solid var(--secundary-color);
+    border: 1px solid var(--secondary-color);
     border-radius: 8%;
     width: 30%;
 }
 
-footer.foot{
-    color: var(--backgorund-black-hover);
+footer.footer{
+    color: var(--main-color);
     padding: 24px;
-    background-color: var(--background-third-color);
+    background-color: var(--secondary-color);
     text-align: center;
+}
+
+footer a.footer_links{
+    margin-right: 0.8em;
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
 }
 
 @media (max-width: 1200px){

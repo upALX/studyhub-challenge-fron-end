@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,600;1,400&display=swap');
 
 :root{
-    --main-color: rgb(0, 0, 0);
+    --main-color: #212121;
     --main-words-color:  rgba(255, 255, 255, 0.918);
-    --secundary-color: #22D4FD;
-    --background-third-color: #22D4FD; 
-    --black-default: #000000;
+    --secondary-color:#ECB365; 
     --ice-color: #f6f6f6;
-    --backgorund-black-hover: rgba(39, 39, 39, 1);
+    --background-hover: rgba(39, 39, 39, 1);
 
     --first-font: 'Krona One', sans-serif;
     --secondary-word: 'Monserrat', sans-serif;
@@ -34,7 +32,7 @@ header.navigation{
     font-family: var(--secondary-word);
     font-size: 24px;
     font-weight: 600;
-    color: var(--background-third-color);
+    color: var(--secondary-color);
     text-decoration: none;
 }
 
@@ -57,9 +55,18 @@ section.presentation__assignment{
     align-items: center;
 }
 
-footer.foot{
-    color: var(--backgorund-black-hover);
+footer.footer{
+    color: var(--main-color);
     padding: 24px;
-    background-color: var(--background-third-color);
+    background-color: var(--secondary-color);
     text-align: center;
+}
+
+footer a.footer_links{
+    margin-right: 0.8em;
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
 }
