@@ -1,3 +1,6 @@
 [submodule "Discover"]
 	path = Discover
 	url = git@github.com:upALX/Discover.git
+[submodule "NFTs-Landing-Page"]
+	path = NFTs-Landing-Page
+	url = git@github.com:upALX/NFTs-Landing-Page.git
